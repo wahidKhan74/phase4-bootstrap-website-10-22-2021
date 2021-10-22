@@ -1,0 +1,17 @@
+.bg-One {
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.bg-Two{
+    background-color: burlywood;
+    border: 2px solid crimson;
+}
+.bg-Three {
+    background-color:  darkkhaki;
+    border: 2px solid brown;
+}
+
+.bg-Four {
+    background-color: darkolivegreen;
+    border: 2px solid green;
+}
