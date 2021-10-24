@@ -1,0 +1,42 @@
+//declerative class syntax
+class Account {
+    // constructor 
+    constructor(id,name,balance,email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.balance = balance;
+    }
+    // function
+    //show balance
+    showBalnce() {
+        console.log(`Hello user ${this.name}, you have a balance ${this.balance}`);
+    }
+
+    // deposit
+    deposit(amount) {
+        return this.balance+=amount;
+    }
+
+    // deposit
+    withdraw(amount) {
+        return this.balance-=amount;
+    }
+}
+
+
+let account =  new Account(1000001,"Mike Smith",3465567.567,"mike@gmail.com");
+
+console.log(account);
+
+//access properties
+console.log(account.id);
+console.log(account.name);
+console.log(account.balance);
+
+//access methods
+account.showBalnce();
+console.log("After Deposit : ",account.deposit(20000));
+console.log("After Withdraw : ",account.withdraw(20000));
+
+

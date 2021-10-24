@@ -32,8 +32,6 @@ var y = 500;
 var response = calculator(x,y,add);
 console.log(`Addtion ${x} + ${y} = ${response}`);
 
-
-
 console.log(`Substraction ${x} - ${y} = ${calculator(x,y,sub)}`);
 
 console.log(`Multiplication ${x} * ${y} = ${calculator(x,y,mul)}`);
